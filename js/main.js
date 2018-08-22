@@ -3,6 +3,7 @@ $(document).ready(function() {
     studentHeight();
     menuSlide();
     clickableDiv();
+    printLink();
 
     // run function on resize of the window
     $(window).resize(function() {
@@ -36,4 +37,10 @@ function clickableDiv() {
   $('.student').click(function() {
     window.location = $(this).find("a").attr("href");
   });
+}
+
+function printLink() {
+  var url = $(location).attr('href');
+  console.log(date);
+  $('#page-url').text(url);
 }
