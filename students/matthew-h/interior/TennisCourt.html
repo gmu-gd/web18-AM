@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tennis Court 2.0</title>
+		<style>
+			*{box-sizing: border-box;}
+			div
+			{
+				float: left;
+			}
+			.fieldContainer
+			{
+				width: 500px;
+			}
+			.halfContainer
+			{
+				width: 500px;
+			}
+			.middleContainer
+			{
+				width: 300px;
+			}
+			.side, .top, .squares
+			{
+				background-color: green;
+				border: 5px solid white;
+			}
+			.side
+			{
+				width: 100px;
+				height: 400px;
+			}
+			.top
+			{
+				width: 300px;
+				height: 200px;
+			}
+			.squares
+			{
+				width: calc(300px / 2);
+				height: calc(400px - 200px);
+			}
+		</style>
+	
+	</head>
+	
+	<body>
+		<div class="fieldContainer">
+			<div class="halfContainer">
+				<div class="side"></div>
+				<div class="middleContainer">
+					<div class="top"></div>
+					<div class="squares"></div>
+					<div class="squares"></div>
+				</div>
+				<div class="side"></div>
+			</div>
+			<div class="halfContainer">
+				<div class="side"></div>
+				<div class="middleContainer">
+					<div class="squares"></div>
+					<div class="squares"></div>
+					<div class="top"></div>
+				</div>
+				<div class="side"></div>
+			</div>
+
+		</div>
+	</body>
+</html>
