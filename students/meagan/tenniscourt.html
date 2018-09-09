@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title></title>
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			.container{
+				width:450px ;
+			}
+			div{
+				float:left;
+			}
+			/*TOP*/
+			.left, .topcenter, .right, .bottomleft, .bottomright, .bottomleft2, .bottomright2, .right2{
+				background-color:red;
+				border:1px solid white;
+			}
+			.left{
+				width: 60px;
+				height:227px;
+			}
+			.topcenter{
+				width: 302px;
+				height:75px;
+			}
+			.right{
+				width: 60px;
+				height:227px;
+			}
+			.right2{
+				width: 60px;
+				height:227px;
+				margin-top: -150px;
+			}
+			.bottomleft{
+				width:150px;
+				height:150px;
+				margin-top:75px;
+			}
+			.bottomleft2{
+				width:150px;
+				height:150px;
+				margin-top:0px;
+				
+			}
+			.bottomright{
+				width:150px;
+				height:150px;
+				margin-top: 75px;
+				/*float: right;*/
+			}
+			.bottomright2{
+				width:150px;
+				height:150px;
+				margin-top:0px;
+				
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<div class = "container">
+			<!-- TOP -->
+			<div class = "left"></div>
+			<div class = "topcenter">
+				<div class = "bottomleft"></div> 
+				<div class = "bottomright"></div>
+			</div>
+			<div class = "right"></div>
+
+			<!-- BOTTTOM -->
+			<div class = "left"></div>
+			<div class = "bottomleft2"></div>
+			<div class = "bottomright2"></div>
+		
+			<div class = "topcenter"></div>
+			<div class = "right2"></div>
+			
+
+		</div>
+	</body>
+</html>
