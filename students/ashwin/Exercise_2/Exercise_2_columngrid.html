@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+            *{
+                box-sizing: border-box;
+            }
+			div{
+				float: left;
+				margin: 0px;
+				padding: 0px;
+                background-color: red;
+			}
+			.tall{
+				width: 300px;
+				height: 800px;
+			}
+			.bar{
+				width: 900px;
+				height: 125px;
+			}
+            .line{
+                width: 900px;
+                height: 25px;
+            }
+            .bar, .tall, .line{
+                border: 5px solid white;
+            }
+			.container{
+				width: 900px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="bar"></div>
+            <div class="line"></div>
+			<div class="container">
+                <div class="tall"></div>
+                <div class="tall"></div>
+                <div class="tall"></div>
+            </div>
+            <div class="bar"></div>
+		</div>
+	</body>
+</html>
