@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tennis Divs</title>
+		<style>
+			*
+			{
+				box-sizing: border-box;
+			}
+			body
+			{
+			}
+
+			div
+			{
+			}
+
+			.fieldContainer
+			{
+				width: 800px;
+				height: 1000px;
+				border: 5px solid gold;
+			}
+
+			.rectContainerHalf
+			{
+				height: 50%;
+				width: 100%;
+			}
+			.rectContainerCenter
+			{
+				float: left;
+				height: 100%;
+				width: 80%;
+			}
+			.rectTall, .rectWide, .rectBlock
+			{
+				background-color: purple;
+				border: 5px solid gold;
+			}
+			.rectTall
+			{
+				float: left;
+				height: 100%;
+				width:10%;
+			}
+			.rectWide
+			{
+				float:left;
+				height: 30%;
+				width: 100%;
+			}
+			.rectBlock
+			{
+				float: left;
+				height: 70%;
+				width: 50%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<div class="fieldContainer">
+				<div class="rectContainerHalf">
+					<div class="rectTall"></div>
+					<div class = "rectContainerCenter">
+						<div class="rectWide"></div>
+						<div class="rectBlock"></div>
+						<div class="rectBlock"></div>
+					</div>
+					<div class="rectTall"></div>
+				</div>
+				<div class="rectContainerHalf">
+					<div class="rectTall"></div>
+					<div class = "rectContainerCenter">
+						<div class="rectBlock"></div>
+						<div class="rectBlock"></div>
+						<div class="rectWide"></div>
+					</div>
+					<div class="rectTall"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

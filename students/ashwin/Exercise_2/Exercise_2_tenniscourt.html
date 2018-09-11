@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+            *{
+                box-sizing: border-box;
+            }
+			div{
+				float: left;
+				margin: 0px;
+				padding: 0px;
+                background-color: red;
+			}
+			.tall{
+				width: 75px;
+				height: 300px;
+			}
+			.wide{
+				width: 400px;
+				height: 100px;
+			}
+            .square{
+                width: 200px;
+                height: 200px;
+            }
+            .tall, .wide, .square{
+                border: 1px solid white;
+            }
+			.container{
+				width: 550px;
+			}
+            .center{
+                width: 400px;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+            <!--start of first half-->
+			<div class="tall"></div>
+			<div class="center">
+                <div class="wide"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <div class="tall"></div>
+            <!--start of second half-->
+            <div class="tall"></div>
+            <div class="center">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="wide"></div>
+            </div>
+            <div class="tall"></div>
+		</div>
+	</body>
+</html>
