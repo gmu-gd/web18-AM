@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 1000px;
+	background-image: linear-gradient(blue, black);
+}
+div {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+* {box-sizing: border-box;}
+	.side, .top, .box {
+	border: 2px solid white;
+	background-color: olivedrab;
+}
+.side {
+	width: 8.33vw;
+	height: 25vw;
+}
+.top {
+	width: 33.33vw;
+	height: 8.33vw;
+}
+.box {
+	width: 16.66vw;
+	height: 16.66vw;
+}
+.fieldContainer {
+	width: 50vw;
+	position: fixed;
+	top: 0; /*it's view WIDTH and view HEIGHT, not view WINDOW*/
+	left: 25vw; 
+}
+.halfContainer {
+	width: 50vw;
+}
+.middleContainer {
+	width: 33.33vw;
+}
+.circle {
+	height: 5vw;
+	width: 5vw;
+	border-radius: 50%;
+	background-color: azure;
+	position: absolute;
+	top: 5vh;
+	left: 5vw;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.side, .top, .box {
+		border: 2px solid orange;
+		background-color: darkslategrey;
+	}
+	body {
+		background-image: linear-gradient(sienna, black);
+	}
+	.circle {
+		background-color: gold;
+	}
+}
