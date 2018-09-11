@@ -1,0 +1,84 @@
+.tall1{
+	width: 100px;
+	height: 310px;
+	background-color: green;
+	position: absolute;
+}
+.long1{
+	width: 400px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	left:110px;
+}
+.block1{
+	width: 200px;
+	height: 207px;
+	background-color: green;
+	position: absolute;
+	top:110px;
+	left:110px;
+}
+.tall2{
+	width: 100px;
+	height: 310px;
+	background-color: green;
+	position: absolute;
+	left:512px;
+}
+
+.block2{
+	width: 198px;
+	height: 207px;
+	background-color: green;
+	position: absolute;
+	top: 110px;
+	left:312px;
+}
+.tall3{
+	width: 100px;
+	height: 310px;
+	background-color: green;
+	position: absolute;
+	top:320px;
+
+}
+.block3{
+	width: 200px;
+	height: 207px;
+	background-color: green;
+	position: absolute;
+	left:110px;
+	top:320px;
+}
+.block4{
+	width: 198px;
+	height: 207px;
+	background-color: green;
+	position: absolute;
+	left:312px;
+	top:320px;
+}
+.tall4{
+	width: 100px;
+	height: 310px;
+	background-color: green;
+	position: absolute;
+	left:512px;
+	top:320px;
+}
+.long2{
+	width: 400px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	left:110px;
+	top:530px;
+}
+@media only screen and (min-width: 600px){
+	.block3{background-color: blue;}
+}
+
+
+
+
