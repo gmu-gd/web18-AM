@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tennis Court v2</title>
+		<style>
+			body {
+			margin: 0;
+			padding: 0;
+			}
+			div {
+			float: left;
+			margin: 0;
+			padding: 0;
+			}
+			* {box-sizing: border-box;}
+			.side, .top, .box {
+				border: 2px solid white;
+				background-color: lawngreen;
+			}
+			.side {
+				width: 8.33vw;
+				height: 25vw;
+			}
+			.top {
+				width: 33.33vw;
+				height: 8.33vw;
+			}
+			.box {
+				width: 16.66vw;
+				height: 16.66vw;
+			}
+			.fieldContainer {
+				width: 50vw; /*containers that aren't being visually represented don't need heights*/
+			}
+			.halfContainer {
+				width: 50vw;
+			}
+			.middleContainer {
+				width: 33.33vw;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="fieldContainer">
+			<div class="halfContainer">
+				<div class="side"></div>
+				<div class="middleContainer">
+					<div class="top"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+				</div>
+				<div class="side"></div>
+			</div>
+			<div class="halfContainer">
+				<div class="side"></div>
+				<div class="middleContainer">
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="top"></div>
+				</div>
+				<div class="side"></div>
+			</div>
+		</div>
+
+	</body>
+</html>
