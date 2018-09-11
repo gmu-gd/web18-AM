@@ -1,0 +1,47 @@
+*
+{
+	box-sizing: border-box;
+}
+div
+{
+	margin: 0;
+	float: left;
+
+}
+.side
+{				
+	background-color: black;
+	height: 480px;
+	width: 80px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.middle
+{					
+	width: 600px;
+	height: 480px;
+}
+.midtwo
+{
+	width: 600px;
+}
+.midwide
+{				
+	background-color: black;
+	height: 130px;
+	width: 590px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.midsmall
+{			
+	background-color: black;
+	height: 340px;
+	width: 290px;
+	margin-bottom: 10px;
+	margin-right: 10px;	
+}
+.container
+{
+	width: 800px;
+}
