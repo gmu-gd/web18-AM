@@ -1,0 +1,22 @@
+.body
+{
+	margin: 0;
+}
+
+.redCube
+{
+	background-color: red;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+}
+
+.blueCube
+{
+	background-color: blue;
+	position: relative;
+	height: 50%;
+	width: 50%;
+	left: 25%;
+	top: 25%;
+}
