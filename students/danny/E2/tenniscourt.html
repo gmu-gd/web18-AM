@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tennis Court</title>
+		<style>
+			/*adjusts borders to be drawn on inside*/
+			*{box-sizing: border-box;}
+			/*all divs will float*/
+			div {float:left}
+			.fieldContainer {width: 500px;}
+			.halfContainer {width: 500px;}
+			.middleContainer {width: 300px;}
+			.side, .top, .square {
+				background-color: red;
+				border: 5px solid white;
+
+			}
+			.side {
+				width: 100px;
+				height: 400px;
+			}
+			.top {
+				width: 300px;
+				height: 200px;
+			}
+			.square {
+				width: 150px;
+				height: 200px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="fieldContainer">
+			<div class="halfContainer">
+				<div class="side"></div>
+				<div class="middleContainer">
+					<div class="top"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+				</div>
+				<div class="side"></div>
+			</div> 
+			<div class="halfContainer">
+				<div class="side"></div>
+				<div class="middleContainer">
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="top"></div>
+				</div>
+				<div class="side"></div>
+			</div>
+		</div>
+	</body>
+</html>

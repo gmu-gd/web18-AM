@@ -1,0 +1,211 @@
+*
+{
+	box-sizing: border-box;
+} 
+.side1
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 500px;
+	width: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.side2
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 500px;
+	width: 100px;
+	position: absolute;
+	top: 0;
+	left: 700px;
+}
+.side3
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 500px;
+	width: 100px;
+	position: absolute;
+	top: 500px;
+	left: 0;
+}
+.side4
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 500px;
+	width: 100px;
+	position: absolute;
+	top: 500px;
+	left: 700px;
+}
+.midwide1
+{	
+	border: 2px solid white;	
+	background-color: black;
+	height: 150px;
+	width: 600px;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+.midwide2
+{	
+	border: 2px solid white;	
+	background-color: black;
+	height: 150px;
+	width: 600px;
+	position: absolute;
+	top: 850px;
+	left: 100px;
+}
+.midsmall1
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 350px;
+	width: 300px;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+.midsmall2
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 350px;
+	width: 300px;
+	position: absolute;
+	top: 150px;
+	left: 400px;
+}
+.midsmall3
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 350px;
+	width: 300px;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+}
+.midsmall4
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 350px;
+	width: 300px;
+	position: absolute;
+	top: 500px;
+	left: 400px;
+}
+
+@media only screen and (max-width: 800px)
+{
+.side1
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 50px;
+	width: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.side2
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 50px;
+	width: 10px;
+	position: absolute;
+	top: 0;
+	left: 70px;
+}
+.side3
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 50px;
+	width: 10px;
+	position: absolute;
+	top: 50px;
+	left: 0;
+}
+.side4
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 50px;
+	width: 10px;
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+.midwide1
+{	
+	border: 2px solid white;	
+	background-color: black;
+	height: 15px;
+	width: 60px;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+.midwide2
+{	
+	border: 2px solid white;	
+	background-color: black;
+	height: 15px;
+	width: 60px;
+	position: absolute;
+	top: 85px;
+	left: 10px;
+}
+.midsmall1
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 35px;
+	width: 30px;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+.midsmall2
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 35px;
+	width: 30px;
+	position: absolute;
+	top: 15px;
+	left: 40px;
+}
+.midsmall3
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 35px;
+	width: 30px;
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+.midsmall4
+{
+	border: 2px solid white;
+	background-color: black;
+	height: 35px;
+	width: 30px;
+	position: absolute;
+	top: 50px;
+	left: 40px;
+}
+
+}	
