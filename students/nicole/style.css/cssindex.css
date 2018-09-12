@@ -1,0 +1,105 @@
+
+*{box-sizing: border-box;}
+
+
+		 
+
+		 	
+		 	
+
+		 	.alley1 {
+		 		width: 100px;
+		 		height: 400px;
+		 		background-color: green;
+		 		border: 1px solid white;
+		 		position: absolute;
+		 		
+		 	}
+		 	
+		 	.baseline1 {
+		 		width: 300px;
+		 		height: 200px;
+		 		background-color: green;
+		 		border: 1px solid white;
+		 		position: absolute;
+		 		left: 100px;
+		 		
+		 	}
+
+			.box1 {
+		 		width: 150px;
+		 		height: 200px;
+		 		background-color: green;
+		 		border: 1px solid white;
+		 		position: absolute;
+		 		top: 200px;
+		 		left: 100px;
+		 	}
+		 	.alley2 {
+		 		width: 100px;
+		 		height: 400px;
+		 		background-color: green;
+		 		border: 1px solid white;
+		 		position: absolute;
+		 		left: 400px;
+
+		 	}
+		 	.box2 {
+		 		width: 150px;
+		 		height: 200px;
+		 		background-color: green;
+		 		border: 1px solid white;
+		 		position: absolute;
+		 		top:200px;
+		 		left: 250px;
+		 	}
+
+		 	.alley3 {
+		 		width: 100px;
+		 		height: 400px;
+		 		background-color: green;
+		 		border: 1px solid white;
+		 		position: absolute;
+		 		top: 400px;
+		 	}
+		 	.baseline2 {
+		 		width: 300px;
+		 		height: 200px;
+		 		background-color: green;
+		 		border: 1px solid white;
+		 		position: absolute;
+		 		top: 600px;
+		 		left: 100px;
+		 	}
+		 	.box3 {
+		 		width: 150px;
+		 		height: 200px;
+		 		background-color: green;
+		 		position: absolute;
+		 		border: 1px solid white;
+		 		top: 400px;
+		 		left: 100px;
+
+		 	}
+		 	.box4 {
+		 		width: 150px;
+		 		height: 200px;
+		 		background-color: green;
+		 		position: absolute;
+		 		border: 1px solid white;
+		 		top: 400px;
+		 		left: 250px;
+		 	}
+		 	.alley4 {
+		 		width: 100px;
+		 		height: 400px;
+		 		background-color: green;
+		 		border: 1px solid white;
+		 		position: absolute;
+		 		top: 400px;
+		 		left: 400px;
+		 	}
+			
+
+			
+	
