@@ -1,0 +1,90 @@
+div
+{
+  background-color: red;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.wideBlock
+{
+  width: 600px;
+  height: 100px;
+}
+.tallBlock
+{
+  width: 100px;
+  height: 400px;
+}
+.balancedBlock
+{
+  width: 300px;
+  height: 300px;
+}
+.topLeft
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.topCenter
+{
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  background-color: orange;
+}
+.topRight
+{
+  position: absolute;
+  left: 700px;
+  top: 0px;
+  background-color: yellow;
+}
+.middleTopLeft
+{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  background-color: green;
+}
+.middleTopRight
+{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  background-color: blue;
+}
+.bottomLeft
+{
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  background-color: indigo;
+}
+.middleBottomLeft
+{
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  background-color: purple;
+}
+.middleBottomRight
+{
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  background-color: black;
+}
+.bottomRight
+{
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  background-color: grey;
+}
+.bottom
+{
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  background-color: pink;
+}
