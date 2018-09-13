@@ -2,20 +2,134 @@
 <html>
 	<head>
 		<title>Danny</title>
-		<style>
+			<style>
 
-		</style>
+				body {
+					background-color: #FFD779;
+				}
+
+				.dropbtn {
+					background-color: #1F1F1F;
+					color: white;
+					padding: 16px;
+					font-size: 16px;
+					border: none;
+					cursor: pointer;
+					margin-right: 20px;
+					display: inline-block;
+				}
+
+				.dropdown {
+					position: relative;
+					display: inline-block;
+				}
+
+				.dropdown-content {
+					display: none;
+					position: absolute;
+					background-color: #f9f9f9;
+					/*grey/white*/
+					min-width: 160px;
+					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+					z-index: 1;
+				}
+
+				.dropdown-content a {
+					color: black;
+					padding: 12px 16px;
+					text-decoration: none;
+					display: block;
+				}
+
+				.dropdown-content a:hover {background-color: #f1f1f1;}
+				/*grey/white*/
+
+				.dropdown:hover .dropdown-content {
+					display: block;
+				}
+
+				.dropdown:hover .dropbtn {
+					background-color: #3e8e41; 
+					/*green*/
+				}
+
+				.Title {
+					font-family: 'Montserrat', sans-serif;
+					font-size: 45px;
+					text-align: center;
+					color: #1F1F1F;
+					letter-spacing: 3px; 
+				}
+
+				.Class {
+					font-family: 'Montserrat', sans-serif;
+					text-align: center;
+					font-size: 20px;
+				}
+
+				 .main-container {
+			      float: left;
+			      position: relative;
+			      left: 50%;
+			    }
+			    .fixer-container {
+			      float: left;
+			      position: relative;
+			      left: -50%;
+			    }
+				
+			</style>
+				<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
 	</head>
-	<body>
-		<p> <a href="E1/sevenprinciples.html">Exercise One</a> </p>
-		<p> <a href="E2/chessboard.html">Chessboard</a> </p>
-		<p> <a href="E2/tenniscourt.html">Tennis Court</a> </p>
-		<p> <a href="E2/columngrid.html">Column Grid</a> </p>
-		<p> <a href="E2/bloglayout.html">Blog Layout</a> </p>
-		<p> <a href="E3/patternone.html">Pattern One</a> </p>
-		<p> <a href="E3/patterntwo.html">Pattern Two</a> </p>
-		<p> <a href="E3/patternthree.html">Pattern Three</a> </p>
-		<p> <a href="E3/patternfour.html">Pattern Four</a> </p>
-		<p> <a href="E3/patternfive.html">Pattern Five</a> </p>
+		<body>
+			<h1 class="Title">Danny.</h1> 
+
+			<h3 class="Class">AVT 217: Web Design</h3>
+
+			<div class="main-container">
+  				<div class="fixer-container">
+
+				<div class="dropdown"> 
+					<button class="dropbtn">Introduction</button>
+					<div class="dropdown-content">
+						<a href="E1/aboutme.html">About Me</a>
+					</div>
+				</div> 
+
+				<div class="dropdown"> 
+					<button class="dropbtn">Exercise One</button>
+					<div class="dropdown-content">
+						<a href="E1/sevenprinciples.html">Seven Principles</a>
+					</div>
+				</div> 
+
+				 <div class="dropdown"> 
+					<button class="dropbtn">Exercise Two</button>
+					<div class="dropdown-content">
+						<a href="E2/chessboard.html">Chessboard</a>
+						<a href="E2/tenniscourt.html">Tennis Court</a>
+						<a href="E2/columngrid.html">Column Grid</a> 
+						<a href="E2/bloglayout.html">Blog Layout</a>
+					</div>
+				</div> 
+
+				<div class="dropdown"> 
+					<button class="dropbtn">Exercise Three</button>
+					<div class="dropdown-content">
+						<a href="E3/patternone.html">Pattern One</a> 
+						<a href="E3/patterntwo.html">Pattern Two</a> 
+						<a href="E3/patternthree.html">Pattern Three</a> 
+						<a href="E3/patternfour.html">Pattern Four</a> 
+						<a href="E3/patternfive.html">Pattern Five</a> 
+					</div>
+				</div> 
+
+				<div class="dropdown"> 
+					<button class="dropbtn">Exercise Four</button>
+					<div class="dropdown-content">
+						<a href="tenniscourt.html">Tennis Court</a>
+					</div>
+				</div> 
+
 	</body>
 </html>
