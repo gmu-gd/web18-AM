@@ -1,0 +1,51 @@
+ul {
+
+	list-style-type: none;
+	padding:0;
+	margin:0;
+
+}
+a{
+	color :red;
+}
+a:hover {
+
+	color:green;
+}
+.body5 {
+height:4000px;
+background-color: black;
+
+
+}
+
+.absolute5 {
+	width:100px;
+height:100px;
+background-color:red;
+position: absolute;
+top:233px;
+left:118px;
+
+}
+
+.relative5 {
+width:100px;
+height:100px;
+background-color: organge;
+position:relative;
+top:50px;
+left:50px;
+
+}
+
+.fixed5 {
+width:100px;
+height:100px;
+background-color: yellow;
+position:fixed;
+top:550px;
+left:550px;
+
+
+}
