@@ -1,0 +1,7 @@
+.centered{
+	background-color:blue;
+	width:600px;
+	height:600px;
+	/*to center a div, number then auto*/
+	margin:0 auto;
+}
