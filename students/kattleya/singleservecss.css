@@ -1,0 +1,16 @@
+body{ 
+	margin: 0;
+
+
+}
+
+.centered {
+	width:60vw;
+    height: 50vh;
+    background-color: blue;
+    /*to center a div, first number represents top and bottom, second value os left and right*/
+    margin: 0 auto;
+
+
+
+}
