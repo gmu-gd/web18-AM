@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pattern 4</title>
+	
+		<style>
+			
+			body{
+				background-color:blue;
+				animation-name:waves;
+				animation-duration:4s;
+				animation-iteration-count: infinite;
+			}
+
+			div{
+				float:left;
+			}
+
+			@keyframes waves{
+				0%{background-color:blue;}
+				25%{background-color:rgb(0, 102, 153)}
+				50%{background-color:rgb(0, 153, 153);}
+				75%{background-color:rgb(0, 102, 153)}
+				100%{background-color:blue;}
+			}
+			
+			.one{
+				background-color:rgb(255, 204, 102);
+				height:250px;
+				width:500px;
+				border-radius:20px;
+				animation-name:shore;
+				animation-duration:4s;
+				animation-iteration-count: infinite;
+
+			}
+
+			@keyframes shore{
+				0%{border-radius:20px;}
+				25%{border-radius:60px;}
+				50%{border-radius:100px;}
+				75%{border-radius:60px;}
+				100%{border-radius:20px;}
+
+			}
+
+			.man{
+				font-family: impact;
+				font-size: 128px;
+				animation-name:oceanman;
+				animation-duration:4s;
+				animation-iteration-count: infinite;
+				color:blue;
+			}
+
+			.hand{
+				font-family: impact;
+				font-size: 69px;
+				animation-name:oceanman;
+				animation-duration:4s;
+				animation-iteration-count: infinite;
+				color:blue;
+			}
+
+			.land{
+				font-family: impact;
+				font-size: 97.5px;
+				animation-name:understand;
+				animation-duration:4s;
+				animation-iteration-count: infinite;
+				color:blue;
+				float:left;
+			}
+
+			.lyrics{
+				width:580px;
+			}
+
+			@keyframes oceanman{
+				0%{
+					opacity:0;
+				}
+				25%{
+					opacity:.5;
+				}
+				50%{
+					opacity:1;
+				}
+				75%{
+					opacity:.5;
+				}
+				100%{
+					opacity:0;
+				}
+
+			}
+
+			@keyframes understand{
+				0%{
+					opacity:0;
+					transform: skew(0deg);
+				}
+				25%{
+					opacity:.5;
+					transform: skew(30deg);
+				}
+				50%{
+					opacity:1;
+					transform: skew(0deg);
+				}
+				75%{
+					opacity:.5;
+					transform: skew(-30deg);
+				}
+				100%{
+					opacity:0;
+					transform: skew(0deg);
+				}			
+			}
+				
+			.bottom{
+				float:bottom;
+				width:1580px;
+				height:330px;
+			}
+
+			.top{
+				height:250px;
+				width:1800px;
+				float:left;
+			}
+
+			.sand{
+				width:158px;
+				height:110px;
+				background-color:yellow;
+				animation-name:shore;
+				animation-duration:4s;
+				animation-iteration-count: infinite;
+				border-radius:20px;
+
+			}
+
+			.water{
+				width:158px;
+				height:110px;
+			}
+
+
+		</style>
+	</head>
+	
+	
+	<body>
+
+
+		<div class="top">
+			<div class="one"></div>
+					
+				<div class="lyrics">
+					<div class="man">OCEAN MAN</div>
+					<div class="hand">Take me by the hand</div>
+				</div>
+			
+			<div class="one"></div>
+
+			<div class="land">take me to the land that you understand</div>
+
+		<div class="bottom">
+			
+			<div class="sand"></div>
+			<div class="water"></div>
+			<div class="sand"></div>
+			<div class="water"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="water"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="water"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="water"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="water"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="water"></div>
+			<div class="sand"></div>
+			<div class="sand"></div>
+			<div class="water"></div>
+			<div class="sand"></div>
+
+		</div>
+
+
+	</div>
+
+
+			
+
+	</body>
+</html>
