@@ -1,0 +1,41 @@
+ul{
+
+list-style-type: none;
+padding: 0;
+margin: 0;
+
+}
+
+a {
+	color: red;
+	transition: color .5s ease;
+}
+
+a:hover {
+	color: blue;
+}
+
+.d5body{
+	height: 4000px;
+	background-color: ;
+}
+.Sabsolute5 {
+width: 100px;
+height:100px;
+background-color: blue;
+position: absolute;
+absolute, relative, fixed
+top: 217px;
+left: 385px;
+}
+
+.left1 {
+width: 100px;
+height: 300px;
+background-color: red;
+position: absolute;
+top:0;
+left:0;
+}
+
+@media only screen and (min-width: 600px)

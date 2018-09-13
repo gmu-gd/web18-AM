@@ -1,0 +1,109 @@
+ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+a
+{
+	font-size: 5vw;
+	color: red;
+	transition: color .5s ease;
+}
+a:hover
+{
+	color: blue;
+}
+.indigoSquare
+{
+	height: 100px;
+	width: 100px;
+	background-color: Indigo;
+	position: absolute;
+	top: 315px;
+	left: 230px;
+	
+}
+.blueRectangle
+{
+	height: 200px;
+	width: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 100px;
+	left: 345px;
+}
+.yellowRectangle
+{
+	height: 200px;
+	width: 100px;
+	background-color: yellow;
+	position: absolute;
+	top: 315px;
+	left: 0px;
+}
+.redRectangle
+{
+	height: 200px;
+	width: 100px;
+	background-color: red;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	
+}
+.orangeRectangle
+{
+	width: 100px;
+	height: 200px;
+	background-color: orange;
+	position: absolute;
+	top: 315px;
+	left: 345px;
+}
+.pinkRectangle
+{
+	width: 215px;
+	height: 85px;
+	background-color: HotPink;
+	position: absolute;
+	top: 430px;
+	left: 115px;
+}
+.blackSquare
+{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	top: 200px;
+	left: 115px;
+}
+.graySquare
+{
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	position: absolute;
+	top: 200px;
+	left: 230px;
+}
+
+.purpleSquare
+{
+	width: 100px;
+	height: 100px;
+	background-color: Purple;
+	position: absolute;
+	top: 315px;
+	left: 115px;
+}
+.greenRectangle
+{
+	width: 215px;
+	height: 85px;
+	background-color: green;
+	position: absolute;
+	top: 100px;
+	left: 115px;
+}

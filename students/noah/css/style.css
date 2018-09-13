@@ -1,0 +1,20 @@
+* {
+		float: none;
+		font-family: 'Fira Sans', sans-serif;
+		border-left: 5px;
+        border-right: 5px;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color:beige;
+        font-size: 24px;
+        font-weight: bold;
+        color:black;
+		} p {
+			padding-top: 5px;
+		} a {
+			text-decoration: none;
+		} a:hover {
+			transition: all 1s ease;
+			color: red;
+			border-bottom: 5px dotted red;

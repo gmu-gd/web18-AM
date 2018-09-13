@@ -1,0 +1,120 @@
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	font-size: 5vw;
+	color: red;
+	transition: color .5s ease;
+}
+a:hover {
+	color: blue;
+}
+.d5body {
+	height: 4000px;
+}
+.d5absolute {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute; /*fixed would keep an object in the screen as you scroll*/
+	top: 150px;
+	left:150;
+}
+.d5relative {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+}
+.d5fixed {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: fixed;
+	top: 550px;
+	left: 550px;
+}
+.farleftbox1{
+	width: 100px;
+	height: 300px;
+	background-color: green;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.topbox1{
+	width: 390px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	top: 50px;
+	left: 160px;
+}
+.farrightbox1{
+	width: 100px;
+	height: 300px;
+	background-color: green;
+	position: absolute;
+	top: 50px;
+	left: 560px;
+}
+.leftmiddlebox1{
+	width: 190px;
+	height: 190px;
+	background-color: green;
+	position: absolute;
+	top: 160px;
+	left: 160px;
+}
+.rightmiddlebox1{
+	width: 190px;
+	height: 190px;
+	background-color: green;
+	position: absolute;
+	top: 160px;
+	left: 360px;
+}
+.farleftbox2{
+	width: 100px;
+	height: 300px;
+	background-color: green;
+	position: absolute;
+	top: 360px;
+	left: 50px;
+}
+.leftmiddlebox2{
+	width: 190px;
+	height: 190px;
+	background-color: green;
+	position: absolute;
+	top: 360px;
+	left: 160px;
+}
+.rightmiddlebox2{
+	width: 190px;
+	height: 190px;
+	background-color: green;
+	position: absolute;
+	top: 360px;
+	left: 360px;
+}
+.farrightbox2{
+	width: 100px;
+	height: 300px;
+	background-color: green;
+	position: absolute;
+	top: 360px;
+	left: 560px;
+}
+.bottombox2{
+	width: 390px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	top: 560px;
+	left: 160px;
+}

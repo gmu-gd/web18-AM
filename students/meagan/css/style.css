@@ -1,0 +1,100 @@
+/*top left*/
+.square1{
+	width: 60px;
+	height: 230px;
+	position: absolute;
+	background-color: purple;
+	border: 1px solid white;
+	top:99px;
+	left:105px;
+}
+/*top center*/
+.square2{
+	width: 305px;
+	height:75px;
+	position: absolute;
+	background-color: purple;
+	top:100px;
+	left:170px;
+}
+/*right top side*/
+.square3{
+	width: 60px;
+	height:230px;
+	position: absolute;
+	background-color: purple;
+	top:100px;
+	left:480px;
+}
+/*center squares*/
+.square4{
+	width:150px;
+	height:150px;
+	position: absolute;
+	background-color: purple;
+	top:180px;
+	left:170px;
+}
+.square5{
+	width:150px;
+	height:150px;
+	position: absolute;
+	background-color: purple;
+	top:180px;
+	left:325px;
+}
+
+
+/*bottom half*/
+/*left bottom side*/
+.square6{
+	width: 60px;
+	height: 230px;
+	position: absolute;
+	background-color: purple;
+	top:335px;
+	left:105px;
+}
+/*bottom center*/
+.square7{
+	width: 305px;
+	height:75px;
+	position: absolute;
+	background-color: purple;
+	top:490px;
+	left:170px;
+}
+/*bottom left side*/
+.square8{
+	width: 60px;
+	height:230px;
+	position: absolute;
+	background-color: purple;
+	top:335px;
+	left:480px;
+}
+/*bottom two squares*/
+.square9{
+	width:150px;
+	height:150px;
+	position: absolute;
+	background-color: purple;
+	top:335px;
+	left:170px;
+}
+.square10{
+	width:150px;
+	height:150px;
+	position: absolute;
+	background-color: purple;
+	top:335px;
+	left:325px;
+}
+@media only screen and (max-width: 800px){
+	.square1{background-color:pink;}
+	.square10{background-color:pink;}
+	.square4{background-color:pink;}
+	.square8{background-color:pink;}
+}
+
+

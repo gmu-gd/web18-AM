@@ -1,0 +1,61 @@
+* {
+		float: none;
+		font-family: 'Fira Sans', sans-serif;
+		border-left: 5px;
+        border-right: 5px;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color:beige;
+        font-size: 24px;
+        font-weight: bold;
+        color:black;
+		} p {
+			padding-top: 5px;
+		} a {
+			text-decoration: none;
+		} a:hover {
+			transition: all 1s ease;
+			color: red;
+			border-bottom: 5px dotted red;
+		}
+
+.d5sticky {
+	width: 150px;
+	height: 150px;
+	background-color:green;
+	position: sticky;
+	top: 100px;
+	left: 500px;
+	opacity: 0.25;
+}
+.d5absolute {
+	width: 100px;
+	height: 100px;
+	background-color:blue;
+	position: absolute;
+	top: 200px;
+	left: 350px;
+} .d5body {
+	height: 4000px;
+} .square1 {
+	width:100px;
+	height:100px;
+	background-color:white;
+	position:absolute;
+	top:0px;
+	left:0px;
+} .square2 {
+	width:100px;
+	height:100px;
+	background-color:red;
+	position:absolute;
+	top:0px;
+	left:100px;
+} .square3 {
+	width:100px;
+	height:100px;
+	background-color:white;
+	position:absolute;
+	top:0px;
+	left:200px;
