@@ -4,48 +4,40 @@
 	<head>
 		<title>Pattern Homework</title>
 		<style>
-			body {width: 110%}
+			body
+      {
+        width: 110%;
+        background-color: blue;
+        opacity: .75;
+      }
 			*{box-sizing: border-box}
 			div
 			{
-				background-color: rgba(9, 39, 132);
+				background-color: green;
 				float: left;
 				margin: -8px;
 				height: 50px;
 				width: 50px;
+        opacity: .5;
 				/*margin-left: -10px;
 				margin-top: -10px;*/
 			}
-			div:nth-child(10n)
+      div:nth-child(even)
 			{
-				background-color: white;
+				background-color: blue;
 			}
-			div:nth-child(500n)
-			{
-				background-color: red;
-			}
-			div:nth-child(1000n)
-			{
-				background-color: cyan;
-			}
-			div:nth-child(1500n)
-			{
-				background-color: rgba(9, 255, 10);
-			}
-			div:nth-child(2000n)
-			{
-				background-color: yellow;
-			}
-			div:nth-child(1)
-			{
-				width: 200px;
-				height: 200px;
-				background-color: white;
-			}
+      div:nth-child(10n)
+      {
+        width: 1px;
+        height: 1px;
+        background-color: red;
+      }
+      
 		</style>
 	</head>
 
 	<body>
+  <!--There are literally thousands of lines of empty divs hidden here.-->
 	<div></div>
 	<div></div>
 	<div></div>
@@ -16342,7 +16334,6 @@
 	<div></div>
 	<div></div>
 	<div></div>
-
 	</body>
 
 </html>
