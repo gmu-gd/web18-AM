@@ -1,7 +1,126 @@
-.centered{
-	background-color:blue;
-	width:600px;
-	height:600px;
-	/*to center a div, number then auto*/
-	margin:0 auto;
+
+
+
+div:hover{
+		opacity:.7;
+		border-radius:50px;
+
+
 }
+
+div:hover audio{
+	
+}
+
+.square1{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:red;
+	top:0;
+	left:0;
+}
+
+.square2{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:orange;
+	top:0;
+	left:400px;
+}
+
+.square3{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:yellow;
+	top:0;
+	left:800px;
+}
+
+.square4{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:green;
+	top:0;
+	left:1200px;
+}
+
+.square5{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:cyan;
+	top:200px;
+	left:200px;
+}
+
+.square6{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:blue;
+	top:200px;
+	left:600px;
+}
+
+.square7{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:indigo;
+	top:200px;
+	left:1000px;
+}
+
+.square8{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:purple;
+	top:200px;
+	left:1400px;
+}
+
+.square9{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:pink;
+	top:400px;
+	left:0px;
+}
+
+.square10{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:brown;
+	top:400px;
+	left:400px;
+}
+
+.square11{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:gray;
+	top:400px;
+	left:800px;
+}
+
+.square12{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background-color:black;
+	top:400px;
+	left:1200px;
+}
+
+body{
+	background-color:beige;
+}
+
