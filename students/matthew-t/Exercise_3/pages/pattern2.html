@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pattern2</title>
+	<style>
+
+		*
+		{
+			box-sizing: border-box;
+			padding: 0px 0px 0px 0px;
+			margin: 0px 0px 0px 0px;
+			background-color: #17deee;
+		}
+
+		.redStripe
+		{
+			background-color: #ff4162;
+			transform: skewY(-20deg);
+			height: 60vh;
+			width: 100%;
+		}
+		.orangeStripe
+		{
+			background-color: #ff7f50;
+			opacity: 0.75;
+			transform: skewY(10deg);
+			height: 10vh;
+			width: 100%;
+			z-index: 100;
+		}
+		.yellowStripe
+		{
+			background-color: #ecf284;
+			opacity: 0.75;
+			transform: skewY(10deg);
+			height: 10vh;
+			width: 100%;
+			z-index: 100;
+		}
+
+		.blueStripe
+		{
+			position: relative;
+			float: left;
+			background-color: #10aeb2;
+			height: 100vh;
+			width: 10%;
+		}
+
+		.blueStripe:nth-child(2n)
+		{
+			background-color: #17deee;
+			position: relative;
+			float: left;
+		}
+
+		.container
+		{
+			position: relative;
+			float: left;
+			height: 100vh;
+			width: 100%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="blueStripe"></div>
+	<div class="redStripe"></div>
+	<div class="yellowStripe"></div>
+	<div class="orangeStripe"></div>
+
+	
+</body>
+</html>
