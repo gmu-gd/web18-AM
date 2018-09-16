@@ -1,0 +1,65 @@
+ul { list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+}
+a {
+	color: red;
+	font-size: 5vw;
+	transition: color .5s ease;
+}
+a:hover {
+   
+   color:blue;
+
+}
+.d5body { height: 4000px 
+	      background: lightblue; } 
+
+.d5absolute { width: 800px; 
+	          height: 400px;  
+	          background-color: red; 
+	          position: absolute; 
+	          top: 150px; 
+	          left: 150px; }
+
+ .d5relative { width: 100px; 
+ 	           height: 100px; 
+ 	           background-color: blue; 
+ 	           position: relative; 
+ 	           top: 150px; 
+ 	           left: 150px; } 
+
+ .d5fixed { width: 100px; 
+ 	        height: 100px; 
+ 	        background-color: yellow; 
+ 	        position: fixed; 
+ 	        top: 550px; 
+ 	        left: 550px; }  
+
+
+ .square2{ width: 100px; 
+ 	       height: 100px;  
+ 	       background-color: lightcoral; 
+ 	       position: absolute; 
+ 	       top: 550px; 
+ 	       left: 550px ; } 
+
+ .square3{ width: 100px; 
+ 	       height: 100px; 
+ 	       background-color: lightblue; 
+ 	       position: absolute; 
+ 	       top: 0; 
+ 	       left: 200px ; } 
+ 	       
+ .square4{ width: 100px; 
+ 	       height: 100px; 
+ 	       background-color: lavender; 
+ 	       position: absolute; 
+ 	       top: 100px; 
+ 	       left: 0 ; }
+
+
+
+
+

@@ -1,0 +1,117 @@
+body{
+    background-color: blue;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    position: absolute;
+    background-color: green;
+    border: 2px solid white;
+}
+.square1, .square2, .square3, .square4{
+    width: 600px;
+    height: 600px;
+}
+.square1{
+    top: 200px;
+    left: 150px;
+}
+.square2{
+    top: 200px;
+    left: 750px;
+}
+.square3{
+    top: 800px;
+    left: 150px;
+}
+.square4{
+    top: 800px;
+    left: 750px;
+}
+.tall1, .tall2, .tall3, .tall4{
+    width: 150px;
+    height: 800px;
+}
+.tall1{
+    top: 0px;
+    left: 0px;
+}
+.tall2{
+    top: 0px;
+    left: 1350px;
+}
+.tall3{
+    top: 800px;
+    left: 0px;
+}
+.tall4{
+    top: 800px;
+    left: 1350px;
+}
+.wide1, .wide2{
+    width: 1200px;
+    height: 200px;
+}
+.wide1{
+    top: 0px;
+    left: 150px;
+}
+.wide2{
+    top: 1400px;
+    left: 150px;
+}
+@media only screen and (max-width: 600px){
+    .square1, .square2, .square3, .square4{
+    width: 200px;
+    height: 200px;
+    }
+    .square1{
+    top: 75px;
+    left: 75px;
+    }
+    .square2{
+    top: 75px;
+    left: 275px;
+    }
+    .square3{
+    top: 275px;
+    left: 75px;
+    }
+    .square4{
+    top: 275px;
+    left: 275px;
+    }
+    .tall1, .tall2, .tall3, .tall4{
+    width: 75px;
+    height: 275px;
+    }
+    .tall1{
+    top: 0px;
+    left: 0px;
+    }
+    .tall2{
+    top: 0px;
+    left: 475px;
+    }
+    .tall3{
+    top: 275px;
+    left: 0px;
+    }
+    .tall4{
+    top: 275px;
+    left: 475px;
+    }
+    .wide1, .wide2{
+    width: 400px;
+    height: 75px;
+    }
+    .wide1{
+    top: 0px;
+    left: 75px;
+    }
+    .wide2{
+    top: 475px;
+    left: 75px;
+    }
+}
