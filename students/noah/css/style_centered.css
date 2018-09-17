@@ -1,0 +1,7 @@
+body {margin:0;}
+.centered {
+	width: 50vh;
+	height:50vh;
+	margin: auto;
+	background-color: blue;
+}
