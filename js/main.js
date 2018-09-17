@@ -10,7 +10,9 @@ $(document).ready(function() {
       studentHeight();
     });
     // run function on scroll
-    $(window).scroll();
+    $(window).scroll(function() {
+      
+    });
 });
 
 var textHeight = $('.student h2').outerHeight();

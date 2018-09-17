@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Boing.</title>
+		<link rel="stylesheet" type="text/css" href="../css/singleserve.css">
+
+
+	</head>
+	<body>
+			
+
+			<script language="javascript" type="text/javascript">
+function playSound(soundfile) {
+  document.getElementById("dummy").innerHTML=
+    "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+}
+</script>
+
+
+		<span id="dummy">
+			<embed src="boing.mp3" autostart="false" loop="false" hidden="true">
+		</span>
+
+		<div class="square1" onmouseover="playsound('boing.mp3');"></div>
+		<div class="square2" onmouseover="playsound('boing.mp3');"></div>
+		<div class="square3" onmouseover="playsound('boing.mp3');"></div>
+		<div class="square4" onmouseover="playsound('boing.mp3');"></div>
+		<div class="square5" onmouseover="playsound('boing.mp3');"></div>
+		<div class="square6" onmouseover="playsound('boing.mp3');"></div>
+		<div class="square7" onmouseover="playsound('boing.mp3');"></div>
+		<div class="square8" onmouseover="playsound('boing.mp3');"></div>
+		<div class="square9"></div>
+		<div class="square10"></div>
+		<div class="square11"></div>
+		<div class="square12"><a href="#" onclick="playSound('');"></a></div>
+
+
+		<audio> 
+			<source src="file:///C:/Users/Andrew%20D/Desktop/Current%20CollegeStuff/web18-am/students/andrew/Day6/boing.mp3">
+		</audio>
+			
+		
+	</body>
+</html>
