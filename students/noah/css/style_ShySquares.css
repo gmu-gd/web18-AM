@@ -1,0 +1,109 @@
+* {
+	transition: all 0.25s ease;
+	background-color: white;
+	position: absolute;
+	float:left;
+}
+
+
+
+.black{
+	background-color: black;
+	
+} .white {
+	
+} .middle{
+	background-color:white;
+	
+} .left {
+	background-color:purple;
+	
+} .right {
+	background-color:#CFDB00;
+
+} .bottom {
+	background-color: #00A0E9;
+	
+} .top {
+	background-color:red;
+	
+} .top-left {
+	background-color:violet;
+	
+} .top-right {
+	background-color:orange;
+	
+} .bottom-left {
+	background-color:darkblue;
+	
+} .bottom-right {
+	background-color:darkgreen;
+	
+}
+
+
+.s1 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 0vh;
+	left:0vh;
+	border: solid black 3px;
+} .s2 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 0vh;
+	left:33vh;
+	border: solid black 3px;
+} .s3 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 0vh;
+	left:66vh;
+	border: solid black 3px;
+} .s4 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 33vh;
+	left:0vh;
+	border: solid black 3px;
+} .s5 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 33vh;
+	left:33vh;
+	border: solid black 3px;
+}  .s6 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 33vh;
+	left:66vh;
+	border: solid black 3px;
+} .s7 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 66vh;
+	left:0vh;
+	border: solid black 3px;
+} .s8 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 66vh;
+	left:33vh;
+	border: solid black 3px;
+} .s9 {
+	width: 33.33vh;
+	height:33.33vh;
+	margin: 5px;
+	top: 66vh;
+	left:66vh;
+	border: solid black 3px;
+}
+
