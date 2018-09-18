@@ -1,0 +1,138 @@
+body
+{
+  margin: 0;
+}
+
+div
+{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+}
+div, span
+{
+  color: white;
+}
+
+
+.fifth
+{
+  position: fixed;
+  margin-left: 60vw;
+  margin-top: 65vh;
+  width: 200px;
+  height: 200px;
+}
+
+
+.zeroX
+{
+  margin-left: 0vw;
+}
+.tenX
+{
+  margin-left: 10vw;
+}
+.twentyX
+{
+  margin-left: 20vw;
+}
+.thirtyX
+{
+  margin-left: 30vw;
+}
+.fortyX
+{
+  margin-left: 40vw;
+}
+.fiftyX
+{
+  margin-left: 50vw;
+}
+.sixtyX
+{
+  margin-left: 60vw;
+}
+.seventyX
+{
+  margin-left: 70vw;
+}
+.eightyX
+{
+  margin-left: 80vw;
+}
+.ninetyX
+{
+  margin-left: 90vw;
+}
+.oneHundredX
+{
+  margin-left: 100vw;
+}
+
+
+
+.zeroY
+{
+  margin-top: 0vw;
+}
+.tenY
+{
+  margin-top: 10vw;
+}
+.twentyY
+{
+  margin-top: 20vw;
+}
+.thirtyY
+{
+  margin-top: 30vw;
+}
+.fortyY
+{
+  margin-top: 40vw;
+}
+.fiftyY
+{
+  margin-top: 50vw;
+}
+.sixtyY
+{
+  margin-top: 60vw;
+}
+.seventyY
+{
+  margin-top: 70vw;
+}
+.eightyY
+{
+  margin-top: 80vw;
+}
+.ninetyY
+{
+  margin-top: 90vw;
+}
+.oneHundredY
+{
+  margin-top: 100vw;
+}
+
+.big
+{
+  width: 400px;
+  height: 400px;
+}
+.medium
+{
+  width: 200px;
+  height: 200px;
+}
+.small
+{
+  width: 100px;
+  height: 100px;
+}
+
+
