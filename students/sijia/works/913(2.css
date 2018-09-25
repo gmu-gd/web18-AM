@@ -1,3 +1,12 @@
 body{
-	
+	margin: 0;
+}
+.center{
+	width:563px;
+	height:50vh;
+	background-color:blue;
+	margin: auto;
+	/*to center a div, first number 
+	represents top and bottom, second 
+	value is left and right*/
 }
