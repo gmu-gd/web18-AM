@@ -1,0 +1,97 @@
+
+/*.square1{
+	width:100px;
+	height:100px;
+	background-color: white;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.square2{
+	width:100px;
+	height:100px;
+	background-color: black;
+	position:absolute;
+	top:100px;
+	left:100px;
+}*/
+.tall1{
+	width:100px;
+	height:305px;
+	background-color:pink;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+.long1{
+	width:405px;
+	height:100px;
+	background-color:pink;
+	position:absolute;
+	top:5px;
+	left:110px;
+	}
+.tall2{
+	width:100px;
+	height:305px;
+	background-color:pink;
+	position:absolute;
+	top:5px;
+	left:520px;
+}
+.square1{
+	width:200px;
+	height:200px;
+	background-color: pink;
+	position:absolute;
+	top:110px;
+	left:110px;
+}
+.square2{
+	width:200px;
+	height:200px;
+	background-color: pink;
+	position:absolute;
+	top:110px;
+	left:315px;
+}
+.tall3{
+	width:100px;
+	height:305px;
+	background-color: pink;
+	position:absolute;
+	top:315px;
+	left:5px;
+}
+.square3{
+	width: 200px;
+	height:200px;
+	background-color: pink;
+	position:absolute;
+	top:315px;
+	left:110px;
+}
+.square4{
+	width:200px;
+	height:200px;
+	background-color:pink;
+	position:absolute;
+	top:315px;
+	left:315px;
+}
+.long2{
+	width:405px;
+	height:100px;
+	background-color: pink;
+	position:absolute;
+	top:520px;
+	left:110px;
+}
+.tall4{
+	width:100px;
+	height:305px;
+	background-color: pink;
+	position:absolute;
+	top:315px;
+	left:520px;
+}

@@ -1,0 +1,61 @@
+.nay
+{
+	width: 5vw;
+	height: 5vw;
+	background-color: white;
+}	
+.yay
+{
+	width: 5vw;
+	height: 5vw;
+	background-color: white;
+}	
+.nay:hover
+{
+	background-color: blue;
+}
+.yay:hover
+{
+	background-color: blue;
+}
+*
+{
+	box-sizing: border-box;
+} 
+div
+{
+	float: left;
+	border: 2px solid black;
+}
+p
+{
+	font-size: 10vw;
+	text-align: center;
+	color: white;
+}
+.winC
+{
+	font-size: 3vw;
+	color: black;
+	text-align: center;
+}
+body
+{
+	background-color: black;
+	margin: 0;
+}
+.container
+{
+	margin: 0 10vw;
+	width: 80vw;
+}
+.text
+{
+	width: 30vw;
+}
+.loseC
+{
+	font-size: 3vw;
+	color: black;
+	text-align: center;
+}

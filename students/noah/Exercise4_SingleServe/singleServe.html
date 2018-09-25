@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" type="text/css" href="../css/style_ShySquares.css"> <!-- Style -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+	<script src="../js/js_ShySquares.js"></script>
+	<title>Shy Squares</title>
+
+	<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+		var X = false;
+		$(document).ready(function(){
+			$("div.s1").hover(function(event){
+				if (X) {
+					$("div.s1").removeClass().addClass("s1 middle");
+					$("div.s2").removeClass().addClass("s2 right");
+					$("div.s3").removeClass().addClass("s3 left");
+					$("div.s4").removeClass().addClass("s4 bottom");
+					$("div.s5").removeClass().addClass("s5 bottom-right");
+					$("div.s6").removeClass().addClass("s6 bottom-left");
+					$("div.s7").removeClass().addClass("s7 top");
+					$("div.s8").removeClass().addClass("s8 top-right");
+					$("div.s9").removeClass().addClass("s9 top-left");
+				}
+			});
+			$("div.s2").hover(function(event){
+				if (X) {
+					$("div.s2").removeClass().addClass("s2 middle");
+					$("div.s3").removeClass().addClass("s3 right");
+					$("div.s4").removeClass().addClass("s4 bottom-left");
+					$("div.s5").removeClass().addClass("s5 bottom");
+					$("div.s6").removeClass().addClass("s6 bottom-right");
+					$("div.s7").removeClass().addClass("s7 top-left");
+					$("div.s8").removeClass().addClass("s8 top");
+					$("div.s9").removeClass().addClass("s9 top-right");
+					$("div.s1").removeClass().addClass("s1 left");
+				}
+			});
+			$("div.s3").hover(function(event){
+				if (X) {
+					$("div.s1").removeClass().addClass("s1 right");
+					$("div.s2").removeClass().addClass("s2 left");
+					$("div.s3").removeClass().addClass("s3 middle");
+					$("div.s4").removeClass().addClass("s4 bottom-right");
+					$("div.s5").removeClass().addClass("s5 bottom-left");
+					$("div.s6").removeClass().addClass("s6 bottom");
+					$("div.s7").removeClass().addClass("s7 top-right");
+					$("div.s8").removeClass().addClass("s8 top-left");
+					$("div.s9").removeClass().addClass("s9 top");
+				}
+			});
+			$("div.s4").hover(function(event){
+				if (X) {
+					$("div.s1").removeClass().addClass("s1 top");
+					$("div.s2").removeClass().addClass("s2 top-left");
+					$("div.s3").removeClass().addClass("s3 top-right");
+					$("div.s4").removeClass().addClass("s4 middle");
+					$("div.s5").removeClass().addClass("s5 right");
+					$("div.s6").removeClass().addClass("s6 left");
+					$("div.s7").removeClass().addClass("s7 bottom");
+					$("div.s8").removeClass().addClass("s8 bottom-right");
+					$("div.s9").removeClass().addClass("s9 bottom-left");
+				}
+			});
+			$("div.s5").hover(function(event){
+				X = true;
+				$("div.s1").removeClass().addClass("s1 top-left");
+				$("div.s2").removeClass().addClass("s2 top");
+				$("div.s3").removeClass().addClass("s3 top-right");
+				$("div.s4").removeClass().addClass("s4 left");
+				$("div.s5").removeClass().addClass("s5 middle");
+				$("div.s6").removeClass().addClass("s6 right");
+				$("div.s7").removeClass().addClass("s7 bottom-left");
+				$("div.s8").removeClass().addClass("s8 bottom");
+				$("div.s9").removeClass().addClass("s9 bottom-right");
+			});
+			$("div.s6").hover(function(event){
+				if (X) {
+					$("div.s1").removeClass().addClass("s1 top-right");
+					$("div.s2").removeClass().addClass("s2 top-left");
+					$("div.s3").removeClass().addClass("s3 top");
+					$("div.s4").removeClass().addClass("s4 right");
+					$("div.s5").removeClass().addClass("s5 left");
+					$("div.s6").removeClass().addClass("s6 middle");
+					$("div.s7").removeClass().addClass("s7 bottom-right");
+					$("div.s8").removeClass().addClass("s8 bottom-left");
+					$("div.s9").removeClass().addClass("s9 bottom");
+				}
+			});
+			$("div.s7").hover(function(event){
+				if (X) {
+					$("div.s1").removeClass().addClass("s1 bottom");
+					$("div.s2").removeClass().addClass("s2 bottom-right");
+					$("div.s3").removeClass().addClass("s3 bottom-left");
+					$("div.s4").removeClass().addClass("s4 top");
+					$("div.s5").removeClass().addClass("s5 top-right");
+					$("div.s6").removeClass().addClass("s6 top-left");
+					$("div.s7").removeClass().addClass("s7 middle");
+					$("div.s8").removeClass().addClass("s8 right");
+					$("div.s9").removeClass().addClass("s9 left");
+				}
+			});
+			$("div.s8").hover(function(event){
+				if (X) {
+					$("div.s1").removeClass().addClass("s1 bottom-left");
+					$("div.s2").removeClass().addClass("s2 bottom");
+					$("div.s3").removeClass().addClass("s3 bottom-right");
+					$("div.s4").removeClass().addClass("s4 top-left");
+					$("div.s5").removeClass().addClass("s5 top");
+					$("div.s6").removeClass().addClass("s6 top-right");
+					$("div.s7").removeClass().addClass("s7 left");
+					$("div.s8").removeClass().addClass("s8 middle");
+					$("div.s9").removeClass().addClass("s9 right");
+				}
+			});
+			$("div.s9").hover(function(event){
+				if (X) {
+					$("div.s1").removeClass().addClass("s1 bottom-right");
+					$("div.s2").removeClass().addClass("s2 bottom-left");
+					$("div.s3").removeClass().addClass("s3 bottom");
+					$("div.s4").removeClass().addClass("s4 top-right");
+					$("div.s5").removeClass().addClass("s5 top-left");
+					$("div.s6").removeClass().addClass("s6 top");
+					$("div.s7").removeClass().addClass("s7 right");
+					$("div.s8").removeClass().addClass("s8 left");
+					$("div.s9").removeClass().addClass("s9 middle");
+				}
+			});
+		});
+	</script>
+
+	<style>
+
+		/*.s1:hover {
+
+		} */
+	</style>
+</head>
+<body>
+
+
+	<!--<script>
+		function mouseCoordinates(event) {
+			var x = event.clientX;
+			var y = event.clientY;
+		}
+	</script> -->
+	
+	<div class="s1"></div>
+	<div class="s2"></div>
+	<div class="s3"></div>
+	<div class="s4"></div>
+	<div class="s5 black"></div>
+	<div class="s6"></div>
+	<div class="s7"></div>
+	<div class="s8"></div>
+	<div class="s9"></div>
+</body>
+</html>
