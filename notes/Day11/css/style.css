@@ -1,0 +1,32 @@
+* {
+	text-align: center;
+}
+body {
+	padding: 50px;
+}
+h1 {
+	font-family: 'Space Mono', monospace;
+	font-size: 100px;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-family: 'Fruktur', cursive;
+	font-size: 100px;
+	margin: 0;
+	padding: 100px 0 0 0;
+}
+h3 {
+	font-family: "sutturah",sans-serif;
+	font-size: 100px;
+	margin: 0;
+	padding: 100px 0 0 0;
+}
+h4 {
+	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+}
